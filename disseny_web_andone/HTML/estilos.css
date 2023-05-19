@@ -1,0 +1,429 @@
+body {
+  background-color: #404040;
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------------------------*/
+
+.cabecera {
+  background-color: black;
+  height: 105px;
+  width: 1920px;
+  margin: auto;
+}
+
+/*------------------------------------*/
+
+.barra_de_busqueda {
+  justify-content: right;
+  margin-right: 5px;
+  margin-top: 20px;
+  float: right;
+  width: 240px;
+  display: flex;
+  position: relative;
+  background-color: red;
+}
+
+.barra_de_busqueda input {
+  height: 30px;
+  width: 240px;
+  background-color: #404040;
+  color: #FFF;
+}
+
+.barra_de_busqueda button {
+  background-color: #FFF;
+  color: black;
+}
+
+/*------------------------------------*/
+
+#logo {
+  height: 104px;
+}
+
+/*------------------------------------*/
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+  margin-top: -45px;
+  margin-bottom: 12px;
+}
+
+/*------------------------------------*/
+
+#inicio {
+  background-color: transparent;
+  width: 76px;
+  height: 30px;
+}
+
+#inicio h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#inicio:hover {
+  color: #50C6D2;
+}
+
+/*------------------------------------*/
+
+#lista_animes {
+  background-color: transparent;
+  width: 175px;
+  height: 30px;
+}
+
+#lista_animes h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#lista_animes:hover {
+  color: #50C6D2;
+}
+
+/*------------------------------------*/
+
+#proximos_estrenos {
+  background-color: transparent;
+  width: 255px;
+  height: 30px;
+}
+
+#proximos_estrenos h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#proximos_estrenos:hover {
+  color: #50C6D2;
+}
+
+/*------------------------------------*/
+
+.texto_menu {
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 35px;
+  font-size: 24pt;
+  align-content: center;
+}
+
+/*------------------------------------*/
+
+.contenedor {
+  height: 1000px;
+  width: 1605px;
+  background-color: transparent;
+  margin: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+/*------------------------------------*/
+
+.ultimos_estrenos {
+  color: #FFF;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-bottom: -5px;
+}
+
+/*------------------------------------*/
+
+.imagenes_arriba {
+  font-style: normal;
+  width: 1605px;
+  height: 603px;
+  background-color: transparent;
+  margin-bottom: 50px;
+}
+
+
+/*------------------------------------*/
+
+img {
+  transition: transform 0.50s;
+}
+
+/*------------------------------------*/
+
+.arriba_1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 1062px;
+  height: 603px;
+  overflow: hidden;
+  float: left;
+  border-radius: 20px;
+}
+
+.arriba_1:hover img {
+  transform: scale(1.1);
+}
+
+
+/*------------------------------------*/
+
+.texto_imagenes {
+  margin-left: 15px;
+  margin-bottom: 25px;
+  position: absolute;
+  z-index: 3;
+  color: #FFF;
+  font-family: sans-serif;
+}
+
+/*------------------------------------*/
+
+.fecha {
+  font-size: 15pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 0pt;
+}
+
+/*------------------------------------*/
+
+.nombre {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30pt;
+  line-height: 20pt;
+}
+
+/*------------------------------------*/
+
+.episodio {
+  font-size: 15pt;
+  line-height: 4pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*------------------------------------*/
+
+.degradado_1 {
+  z-index: 2;
+  width: 1062px;
+  height: 603px;
+  position: absolute;
+  background: linear-gradient(transparent, black);
+  opacity: 60%;
+  border-radius: 20px;
+}
+
+/*------------------------------------*/
+
+.arriba_2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 520px;
+  height: 293px;
+  overflow: hidden;
+  margin-bottom: 17px;
+  float: right;
+  border-radius: 20px;
+}
+
+.arriba_2:hover img {
+  transform: scale(1.1);
+}
+
+/*------------------------------------*/
+
+.degradado_2 {
+  z-index: 2;
+  width: 520px;
+  height: 293px;
+  position: absolute;
+  background: linear-gradient(transparent, black);
+  opacity: 60%;
+  border-radius: 20px;
+}
+
+/*------------------------------------*/
+
+.arriba_3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 521px;
+  height: 293px;
+  overflow: hidden;
+  float: right;
+  border-radius: 20px;
+}
+
+.arriba_3:hover img {
+  transform: scale(1.1);
+}
+
+/*------------------------------------*/
+
+.degradado_3 {
+  z-index: 2;
+  width: 521px;
+  height: 293px;
+  position: absolute;
+  background: linear-gradient(transparent, black);
+  opacity: 60%;
+  border-radius: 20px;
+}
+
+/*------------------------------------*/
+
+.animes_populares h1 {
+  color: #FFF;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-bottom: -19px;
+}
+
+/*------------------------------------*/
+
+.imagenes_abajo {
+  margin-top: 10px;
+  width: 1605px;
+  height: 280px;
+  background-color: transparent;
+}
+
+/*------------------------------------*/
+
+.abajo_1 {
+  width: 365px;
+  height: 205px;
+  overflow: hidden;
+  float: left;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 48px;
+  margin-right: 8px;
+}
+
+.abajo_1:hover img {
+  transform: scale(1.1);
+}
+
+/*------------------------------------*/
+
+.abajo_2 {
+  width: 365px;
+  height: 205px;
+  overflow: hidden;
+  float: left;
+  border-radius: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 30px;
+}
+
+.abajo_2:hover img {
+  transform: scale(1.1);
+}
+
+/*------------------------------------*/
+
+.abajo_3 {
+  width: 365px;
+  height: 205px;
+  overflow: hidden;
+  float: left;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 8px;
+  margin-right: 8px
+}
+
+.abajo_3:hover img {
+  transform: scale(1.1);
+}
+
+/*------------------------------------*/
+
+.abajo_4 {
+  width: 365px;
+  height: 205px;
+  overflow: hidden;
+  float: left;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 8px;
+  margin-right: 47px;
+}
+
+.abajo_4:hover img {
+  transform: scale(1.1);
+}
+
+/*------------------------------------*/
+
+.abajo_text {
+  width: 1508px;
+  height: 30px;
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: transparent;
+  float: left;
+  line-height: 40px;
+  font-size: 20pt;
+}
+
+/*------------------------------------*/
+
+.abajo_text_1 {
+  height: 30px;
+  float: left;
+  margin-left: 60px;
+  margin-right: 210px;
+  background-color: transparent;
+  float: left;
+  color: #FFF;
+}
+
+/*------------------------------------*/
+
+.abajo_text_2 {
+  height: 30px;
+  float: left;
+  margin-right: 195px;
+  background-color: transparent;
+  float: left;
+  color: #FFF;
+}
+
+/*------------------------------------*/
+
+.abajo_text_3 {
+  height: 30px;
+  float: left;
+  margin-right: 255px;
+  background-color: transparent;
+  float: left;
+  color: #FFF;
+}
+
+/*------------------------------------*/
+
+.abajo_text_4 {
+  height: 30px;
+  float: left;
+  margin-right: 0px;
+  background-color: transparent;
+  float: left;
+  color: #FFF;
+}
